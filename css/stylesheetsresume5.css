@@ -7,8 +7,8 @@ header{
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 56%;
     border: 5px solid #fff;
 }
@@ -22,12 +22,12 @@ img {
     margin-left: 80px;
     margin-bottom: 30px;
 }
-.fix{
+/*.fix{
     width: 650px;
     margin-left: 80px;
-}
+}*/
 
-.set{
+/*.set{
      margin-left: 80px;
      margin-bottom: 30px;
 }
@@ -35,7 +35,7 @@ img {
 .tur{
     margin-left: 80px;
      margin-bottom: 30px;  
-}
+}*/
 
 .menu{
     margin-top: -1px;
@@ -68,6 +68,44 @@ body{
 .skills_job{
     margin-left: 80px;
 }
+
+.header-container{
+    display: flex;
+    flex-direction: row; 
+    gap: 4rem;
+    justify-content: space-around;
+}
+
+.about-education {
+    display: flex;
+    align-items: center;
+    margin-top:-2rem;
+    padding: 0.5rem;
+}
+
+.jobs {
+    display: flex;
+    border: 1px solid #000;
+    gap: 6rem;
+    padding: 3px;
+}
+
+.list_skills {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.list_skills li {
+    border: 1px solid #000;
+    border-radius: 100px;
+    padding: 0.10rem;
+}
+
+.experience {
+    margin-top: -22px;
+}
+
 
 
 
