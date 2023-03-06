@@ -106,8 +106,14 @@ body{
     margin-top: -22px;
 }
 
+footer {
+    background-color: blue;
+    color:#fff;
+}
 
-
-
-
-
+.the-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
