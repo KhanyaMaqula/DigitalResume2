@@ -117,3 +117,25 @@ footer {
     align-items: center;
     gap: 1.5rem;
 }
+.hero {
+    background-image: url("Images/proffesional.jpg");
+    background-color: #f7f7f7; /* fallback color */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+    color: #fff;
+  }
+  .hero-content img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
