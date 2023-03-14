@@ -13,11 +13,11 @@ img {
     border: 5px solid #fff;
 }
 
-.space{
+/*.space{
      width: 650px;
      margin-left: 80px;
 
-}
+}*/
 .side{
     margin-left: 80px;
     margin-bottom: 30px;
@@ -81,6 +81,7 @@ body{
     align-items: center;
     margin-top:-2rem;
     padding: 0.5rem;
+    gap: 1.5rem;
 }
 
 .jobs {
@@ -138,4 +139,23 @@ footer {
     width: 200px;
     border-radius: 50%;
     margin-bottom: 1rem;
+  }
+
+  @media screen and (max-width:769px) {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-education {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jobs {
+        display: flex;
+        flex-direction: column;
+        border: 0px;
+        gap: 1.5px;
+    }
   }
